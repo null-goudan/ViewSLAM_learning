@@ -1,0 +1,4 @@
+/snap/clion/198/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/198/bin/ninja/linux/ninja -G Ninja -S /mnt/hgfs/Code/View_slam/ch3/examples/plotTrajectory -B /mnt/hgfs/Code/View_slam/ch3/examples/plotTrajectory/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/hgfs/Code/View_slam/ch3/examples/plotTrajectory/cmake-build-debug

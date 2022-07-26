@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/useLib.dir/useLib.cpp.o  -o useLib libhello_share.a 
