@@ -1,0 +1,5 @@
+# ninja log v5
+2	657	1658845933000000000	CMakeFiles/..dir/imageBasics.cpp.o	e61fb1815b6f8e86
+1	623	1658849204000000000	CMakeFiles/imageBasics.dir/imageBasics.cpp.o	3fdebb3bc5ae46bb
+624	754	1658849204000000000	imageBasics	6bba8c3b255fd123
+0	168	1658849459000000000	build.ninja	f4967c1108211d44

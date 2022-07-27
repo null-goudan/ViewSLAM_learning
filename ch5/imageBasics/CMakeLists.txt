@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.0)
+project(imageBasic)
+
+# set(CMAKE_BUILD_TYPE "Release")
+set(CMAKE_CXX_FLAGS "-std=c++11")
+#set(CMAKE_MODULE_PATH  /home/opencv-3.4.16/build/)
+## find_package(Opencv  NAMES OpenCV REQUIRED)
+find_package(OpenCV REQUIRED)
+#if(Opencv_FOUND)
+#    message(STATUS "The Opencv lib is found!")
+#    include_directories(${OpenCV_INCLUDE_DIRS})
+#endif()
+
+add_executable(imageBasics imageBasics.cpp)
+target_link_libraries(imageBasics ${OpenCV_LIBS})
