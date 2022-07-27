@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: undistortImage
+# Project: stereoVision
 # Configurations: Debug
 # =============================================================================
 
@@ -39,48 +39,48 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /mnt/hgfs/Code/View_slam/ch5/undistortImage/cmake-build-debug/
+cmake_ninja_workdir = /mnt/hgfs/Code/View_slam/ch5/stereoVision/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target undistortImage
+# Object build statements for EXECUTABLE target stereoVision
 
 
 #############################################
-# Order-only phony target for undistortImage
+# Order-only phony target for stereoVision
 
-build cmake_object_order_depends_target_undistortImage: phony || CMakeFiles/undistortImage.dir
+build cmake_object_order_depends_target_stereoVision: phony || CMakeFiles/stereoVision.dir
 
-build CMakeFiles/undistortImage.dir/undistortimage.cpp.o: CXX_COMPILER__undistortImage_Debug /mnt/hgfs/Code/View_slam/ch5/undistortImage/undistortimage.cpp || cmake_object_order_depends_target_undistortImage
+build CMakeFiles/stereoVision.dir/stereoVision.cpp.o: CXX_COMPILER__stereoVision_Debug /mnt/hgfs/Code/View_slam/ch5/stereoVision/stereoVision.cpp || cmake_object_order_depends_target_stereoVision
   DEFINES = -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\"x11\" -D_LINUX_
-  DEP_FILE = CMakeFiles/undistortImage.dir/undistortimage.cpp.o.d
-  FLAGS = -std=c++11 -g
+  DEP_FILE = CMakeFiles/stereoVision.dir/stereoVision.cpp.o.d
+  FLAGS = -std=c++14 -g
   INCLUDES = -isystem /usr/include/eigen3 -isystem /usr/local/include/opencv -isystem /home/goudan/Pangolin/components/pango_core/include -isystem /home/goudan/Pangolin/components/pango_display/include -isystem /home/goudan/Pangolin/components/pango_opengl/include -isystem /home/goudan/Pangolin/components/pango_image/include -isystem /home/goudan/Pangolin/components/pango_windowing/include -isystem /home/goudan/Pangolin/build/include -isystem /home/goudan/Pangolin/components/pango_vars/include -isystem /home/goudan/Pangolin/components/pango_geometry/include -isystem /home/goudan/Pangolin/components/tinyobj/include -isystem /home/goudan/Pangolin/components/pango_glgeometry/include -isystem /home/goudan/Pangolin/components/pango_packetstream/include -isystem /home/goudan/Pangolin/components/pango_plot/include -isystem /home/goudan/Pangolin/components/pango_scene/include -isystem /home/goudan/Pangolin/components/pango_tools/include -isystem /home/goudan/Pangolin/components/pango_video/include
-  OBJECT_DIR = CMakeFiles/undistortImage.dir
-  OBJECT_FILE_DIR = CMakeFiles/undistortImage.dir
+  OBJECT_DIR = CMakeFiles/stereoVision.dir
+  OBJECT_FILE_DIR = CMakeFiles/stereoVision.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target undistortImage
+# Link build statements for EXECUTABLE target stereoVision
 
 
 #############################################
-# Link the executable undistortImage
+# Link the executable stereoVision
 
-build undistortImage: CXX_EXECUTABLE_LINKER__undistortImage_Debug CMakeFiles/undistortImage.dir/undistortimage.cpp.o | /usr/local/lib/libopencv_dnn.so.3.4.16 /usr/local/lib/libopencv_highgui.so.3.4.16 /usr/local/lib/libopencv_ml.so.3.4.16 /usr/local/lib/libopencv_objdetect.so.3.4.16 /usr/local/lib/libopencv_shape.so.3.4.16 /usr/local/lib/libopencv_stitching.so.3.4.16 /usr/local/lib/libopencv_superres.so.3.4.16 /usr/local/lib/libopencv_videostab.so.3.4.16 /home/goudan/Pangolin/build/libpango_glgeometry.so /home/goudan/Pangolin/build/libpango_plot.so /home/goudan/Pangolin/build/libpango_python.so /home/goudan/Pangolin/build/libpango_scene.so /home/goudan/Pangolin/build/libpango_tools.so /home/goudan/Pangolin/build/libpango_video.so /usr/local/lib/libopencv_calib3d.so.3.4.16 /usr/local/lib/libopencv_features2d.so.3.4.16 /usr/local/lib/libopencv_flann.so.3.4.16 /usr/local/lib/libopencv_photo.so.3.4.16 /usr/local/lib/libopencv_video.so.3.4.16 /usr/local/lib/libopencv_videoio.so.3.4.16 /usr/local/lib/libopencv_imgcodecs.so.3.4.16 /usr/local/lib/libopencv_imgproc.so.3.4.16 /usr/local/lib/libopencv_core.so.3.4.16 /home/goudan/Pangolin/build/libpango_geometry.so /home/goudan/Pangolin/build/libtinyobj.so /home/goudan/Pangolin/build/libpango_display.so /home/goudan/Pangolin/build/libpango_vars.so /home/goudan/Pangolin/build/libpango_windowing.so /home/goudan/Pangolin/build/libpango_opengl.so /usr/lib/x86_64-linux-gnu/libGLEW.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libGLU.so /home/goudan/Pangolin/build/libpango_image.so /home/goudan/Pangolin/build/libpango_packetstream.so /home/goudan/Pangolin/build/libpango_core.so
-  FLAGS = -std=c++11 -g
+build stereoVision: CXX_EXECUTABLE_LINKER__stereoVision_Debug CMakeFiles/stereoVision.dir/stereoVision.cpp.o | /usr/local/lib/libopencv_dnn.so.3.4.16 /usr/local/lib/libopencv_highgui.so.3.4.16 /usr/local/lib/libopencv_ml.so.3.4.16 /usr/local/lib/libopencv_objdetect.so.3.4.16 /usr/local/lib/libopencv_shape.so.3.4.16 /usr/local/lib/libopencv_stitching.so.3.4.16 /usr/local/lib/libopencv_superres.so.3.4.16 /usr/local/lib/libopencv_videostab.so.3.4.16 /home/goudan/Pangolin/build/libpango_glgeometry.so /home/goudan/Pangolin/build/libpango_plot.so /home/goudan/Pangolin/build/libpango_python.so /home/goudan/Pangolin/build/libpango_scene.so /home/goudan/Pangolin/build/libpango_tools.so /home/goudan/Pangolin/build/libpango_video.so /usr/local/lib/libopencv_calib3d.so.3.4.16 /usr/local/lib/libopencv_features2d.so.3.4.16 /usr/local/lib/libopencv_flann.so.3.4.16 /usr/local/lib/libopencv_photo.so.3.4.16 /usr/local/lib/libopencv_video.so.3.4.16 /usr/local/lib/libopencv_videoio.so.3.4.16 /usr/local/lib/libopencv_imgcodecs.so.3.4.16 /usr/local/lib/libopencv_imgproc.so.3.4.16 /usr/local/lib/libopencv_core.so.3.4.16 /home/goudan/Pangolin/build/libpango_geometry.so /home/goudan/Pangolin/build/libtinyobj.so /home/goudan/Pangolin/build/libpango_display.so /home/goudan/Pangolin/build/libpango_vars.so /home/goudan/Pangolin/build/libpango_windowing.so /home/goudan/Pangolin/build/libpango_opengl.so /usr/lib/x86_64-linux-gnu/libGLEW.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libGLU.so /home/goudan/Pangolin/build/libpango_image.so /home/goudan/Pangolin/build/libpango_packetstream.so /home/goudan/Pangolin/build/libpango_core.so
+  FLAGS = -std=c++14 -g
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib:/home/goudan/Pangolin/build  /usr/local/lib/libopencv_dnn.so.3.4.16  /usr/local/lib/libopencv_highgui.so.3.4.16  /usr/local/lib/libopencv_ml.so.3.4.16  /usr/local/lib/libopencv_objdetect.so.3.4.16  /usr/local/lib/libopencv_shape.so.3.4.16  /usr/local/lib/libopencv_stitching.so.3.4.16  /usr/local/lib/libopencv_superres.so.3.4.16  /usr/local/lib/libopencv_videostab.so.3.4.16  /home/goudan/Pangolin/build/libpango_glgeometry.so  /home/goudan/Pangolin/build/libpango_plot.so  /home/goudan/Pangolin/build/libpango_python.so  /home/goudan/Pangolin/build/libpango_scene.so  /home/goudan/Pangolin/build/libpango_tools.so  /home/goudan/Pangolin/build/libpango_video.so  /usr/local/lib/libopencv_calib3d.so.3.4.16  /usr/local/lib/libopencv_features2d.so.3.4.16  /usr/local/lib/libopencv_flann.so.3.4.16  /usr/local/lib/libopencv_photo.so.3.4.16  /usr/local/lib/libopencv_video.so.3.4.16  /usr/local/lib/libopencv_videoio.so.3.4.16  /usr/local/lib/libopencv_imgcodecs.so.3.4.16  /usr/local/lib/libopencv_imgproc.so.3.4.16  /usr/local/lib/libopencv_core.so.3.4.16  /home/goudan/Pangolin/build/libpango_geometry.so  /home/goudan/Pangolin/build/libtinyobj.so  /home/goudan/Pangolin/build/libpango_display.so  /home/goudan/Pangolin/build/libpango_vars.so  /home/goudan/Pangolin/build/libpango_windowing.so  /home/goudan/Pangolin/build/libpango_opengl.so  -lGLEW  -lOpenGL  -lGLX  -lGLU  /home/goudan/Pangolin/build/libpango_image.so  /home/goudan/Pangolin/build/libpango_packetstream.so  /home/goudan/Pangolin/build/libpango_core.so  -lrt  -lpthread
-  OBJECT_DIR = CMakeFiles/undistortImage.dir
+  OBJECT_DIR = CMakeFiles/stereoVision.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = undistortImage
-  TARGET_PDB = undistortImage.dbg
+  TARGET_FILE = stereoVision
+  TARGET_PDB = stereoVision.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /mnt/hgfs/Code/View_slam/ch5/undistortImage/cmake-build-debug && /snap/clion/198/bin/cmake/linux/bin/ccmake -S/mnt/hgfs/Code/View_slam/ch5/undistortImage -B/mnt/hgfs/Code/View_slam/ch5/undistortImage/cmake-build-debug
+  COMMAND = cd /mnt/hgfs/Code/View_slam/ch5/stereoVision/cmake-build-debug && /snap/clion/198/bin/cmake/linux/bin/ccmake -S/mnt/hgfs/Code/View_slam/ch5/stereoVision -B/mnt/hgfs/Code/View_slam/ch5/stereoVision/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /mnt/hgfs/Code/View_slam/ch5/undistortImage/cmake-build-debug && /snap/clion/198/bin/cmake/linux/bin/cmake --regenerate-during-build -S/mnt/hgfs/Code/View_slam/ch5/undistortImage -B/mnt/hgfs/Code/View_slam/ch5/undistortImage/cmake-build-debug
+  COMMAND = cd /mnt/hgfs/Code/View_slam/ch5/stereoVision/cmake-build-debug && /snap/clion/198/bin/cmake/linux/bin/cmake --regenerate-during-build -S/mnt/hgfs/Code/View_slam/ch5/stereoVision -B/mnt/hgfs/Code/View_slam/ch5/stereoVision/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -108,9 +108,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /mnt/hgfs/Code/View_slam/ch5/undistortImage/cmake-build-debug
+# Folder: /mnt/hgfs/Code/View_slam/ch5/stereoVision/cmake-build-debug
 
-build all: phony undistortImage
+build all: phony stereoVision
 
 # =============================================================================
 # Unknown Build Time Dependencies.

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/hgfs/Code/View_slam/ch5/undistortImage/cmake-build-debug"
+			"value" : "/mnt/hgfs/Code/View_slam/ch5/stereoVision/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -582,6 +582,54 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREADS_CREATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have library pthreads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREAD_CREATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have library pthread"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREAD_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include pthread.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -591,7 +639,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/hgfs/Code/View_slam/ch5/undistortImage"
+			"value" : "/mnt/hgfs/Code/View_slam/ch5/stereoVision"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -831,7 +879,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "undistortImage"
+			"value" : "stereoVision"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1114,6 +1162,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "Eigen3_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Eigen3."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/cmake/eigen3"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenCV",
 			"properties" : 
 			[
@@ -1124,6 +1184,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[/usr/local][v3.4.16()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Threads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[TRUE][v()]"
 		},
 		{
 			"name" : "OpenCV_DIR",
@@ -1138,7 +1210,19 @@
 			"value" : "/usr/local/share/OpenCV"
 		},
 		{
-			"name" : "undistortImage_BINARY_DIR",
+			"name" : "Pangolin_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Pangolin."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/goudan/Pangolin/build"
+		},
+		{
+			"name" : "stereoVision_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1147,10 +1231,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/hgfs/Code/View_slam/ch5/undistortImage/cmake-build-debug"
+			"value" : "/mnt/hgfs/Code/View_slam/ch5/stereoVision/cmake-build-debug"
 		},
 		{
-			"name" : "undistortImage_IS_TOP_LEVEL",
+			"name" : "stereoVision_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1162,7 +1246,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "undistortImage_SOURCE_DIR",
+			"name" : "stereoVision_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1171,7 +1255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/hgfs/Code/View_slam/ch5/undistortImage"
+			"value" : "/mnt/hgfs/Code/View_slam/ch5/stereoVision"
 		}
 	],
 	"kind" : "cache",

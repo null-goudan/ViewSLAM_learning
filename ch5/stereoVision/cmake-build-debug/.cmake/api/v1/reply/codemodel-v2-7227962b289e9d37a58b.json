@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "undistortImage",
+					"name" : "stereoVision",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "undistortImage::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-undistortImage-Debug-e1d0e491312f7b4f7641.json",
-					"name" : "undistortImage",
+					"id" : "stereoVision::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereoVision-Debug-af9f7aa4a2a54c2fe3b7.json",
+					"name" : "stereoVision",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/hgfs/Code/View_slam/ch5/undistortImage/cmake-build-debug",
-		"source" : "/mnt/hgfs/Code/View_slam/ch5/undistortImage"
+		"build" : "/mnt/hgfs/Code/View_slam/ch5/stereoVision/cmake-build-debug",
+		"source" : "/mnt/hgfs/Code/View_slam/ch5/stereoVision"
 	},
 	"version" : 
 	{

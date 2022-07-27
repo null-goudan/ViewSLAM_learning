@@ -1,0 +1,4 @@
+# ninja log v5
+3	238	1658914132000000000	build.ninja	3e3ae7010c15e227
+1	4385	1658914137000000000	CMakeFiles/stereoVision.dir/stereoVision.cpp.o	cbe00c8611abe21c
+4482	5222	1658914138000000000	stereoVision	8a67d4d382f8c2e4
