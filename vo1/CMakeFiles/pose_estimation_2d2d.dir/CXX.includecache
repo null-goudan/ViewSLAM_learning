@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/goudan/Desktop/visual-slam/ViewSLAM_learning/vo1/orb_cv.cpp
+/home/goudan/Desktop/visual-slam/ViewSLAM_learning/vo1/pose_estimation_2d2d.cpp
 iostream
+-
+vector
 -
 opencv2/core/core.hpp
 -
@@ -15,6 +17,6 @@ opencv2/features2d/features2d.hpp
 -
 opencv2/highgui/highgui.hpp
 -
-chrono
+opencv2/calib3d/calib3d.hpp
 -
 

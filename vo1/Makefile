@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/goudan/Desktop/visual-slam
+CMAKE_SOURCE_DIR = /home/goudan/Desktop/visual-slam/ViewSLAM_learning/vo1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/goudan/Desktop/visual-slam
+CMAKE_BINARY_DIR = /home/goudan/Desktop/visual-slam/ViewSLAM_learning/vo1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/goudan/Desktop/visual-slam/CMakeFiles /home/goudan/Desktop/visual-slam/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/goudan/Desktop/visual-slam/ViewSLAM_learning/vo1/CMakeFiles /home/goudan/Desktop/visual-slam/ViewSLAM_learning/vo1/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/goudan/Desktop/visual-slam/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/goudan/Desktop/visual-slam/ViewSLAM_learning/vo1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,19 @@ orb_cv/fast:
 	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/build
 .PHONY : orb_cv/fast
 
+#=============================================================================
+# Target rules for targets named pose_estimation_2d2d
+
+# Build rule for target.
+pose_estimation_2d2d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pose_estimation_2d2d
+.PHONY : pose_estimation_2d2d
+
+# fast build rule for target.
+pose_estimation_2d2d/fast:
+	$(MAKE) -f CMakeFiles/pose_estimation_2d2d.dir/build.make CMakeFiles/pose_estimation_2d2d.dir/build
+.PHONY : pose_estimation_2d2d/fast
+
 orb_cv.o: orb_cv.cpp.o
 
 .PHONY : orb_cv.o
@@ -150,6 +163,33 @@ orb_cv.cpp.s:
 	$(MAKE) -f CMakeFiles/orb_cv.dir/build.make CMakeFiles/orb_cv.dir/orb_cv.cpp.s
 .PHONY : orb_cv.cpp.s
 
+pose_estimation_2d2d.o: pose_estimation_2d2d.cpp.o
+
+.PHONY : pose_estimation_2d2d.o
+
+# target to build an object file
+pose_estimation_2d2d.cpp.o:
+	$(MAKE) -f CMakeFiles/pose_estimation_2d2d.dir/build.make CMakeFiles/pose_estimation_2d2d.dir/pose_estimation_2d2d.cpp.o
+.PHONY : pose_estimation_2d2d.cpp.o
+
+pose_estimation_2d2d.i: pose_estimation_2d2d.cpp.i
+
+.PHONY : pose_estimation_2d2d.i
+
+# target to preprocess a source file
+pose_estimation_2d2d.cpp.i:
+	$(MAKE) -f CMakeFiles/pose_estimation_2d2d.dir/build.make CMakeFiles/pose_estimation_2d2d.dir/pose_estimation_2d2d.cpp.i
+.PHONY : pose_estimation_2d2d.cpp.i
+
+pose_estimation_2d2d.s: pose_estimation_2d2d.cpp.s
+
+.PHONY : pose_estimation_2d2d.s
+
+# target to generate assembly for a file
+pose_estimation_2d2d.cpp.s:
+	$(MAKE) -f CMakeFiles/pose_estimation_2d2d.dir/build.make CMakeFiles/pose_estimation_2d2d.dir/pose_estimation_2d2d.cpp.s
+.PHONY : pose_estimation_2d2d.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... orb_cv"
 	@echo "... edit_cache"
+	@echo "... orb_cv"
+	@echo "... pose_estimation_2d2d"
 	@echo "... orb_cv.o"
 	@echo "... orb_cv.i"
 	@echo "... orb_cv.s"
+	@echo "... pose_estimation_2d2d.o"
+	@echo "... pose_estimation_2d2d.i"
+	@echo "... pose_estimation_2d2d.s"
 .PHONY : help
 
 
