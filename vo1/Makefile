@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named triangulation
+
+# Build rule for target.
+triangulation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 triangulation
+.PHONY : triangulation
+
+# fast build rule for target.
+triangulation/fast:
+	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/build
+.PHONY : triangulation/fast
+
+#=============================================================================
 # Target rules for targets named orb_cv
 
 # Build rule for target.
@@ -190,6 +203,33 @@ pose_estimation_2d2d.cpp.s:
 	$(MAKE) -f CMakeFiles/pose_estimation_2d2d.dir/build.make CMakeFiles/pose_estimation_2d2d.dir/pose_estimation_2d2d.cpp.s
 .PHONY : pose_estimation_2d2d.cpp.s
 
+triangulation.o: triangulation.cpp.o
+
+.PHONY : triangulation.o
+
+# target to build an object file
+triangulation.cpp.o:
+	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/triangulation.cpp.o
+.PHONY : triangulation.cpp.o
+
+triangulation.i: triangulation.cpp.i
+
+.PHONY : triangulation.i
+
+# target to preprocess a source file
+triangulation.cpp.i:
+	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/triangulation.cpp.i
+.PHONY : triangulation.cpp.i
+
+triangulation.s: triangulation.cpp.s
+
+.PHONY : triangulation.s
+
+# target to generate assembly for a file
+triangulation.cpp.s:
+	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/triangulation.cpp.s
+.PHONY : triangulation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,6 +238,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... triangulation"
 	@echo "... orb_cv"
 	@echo "... pose_estimation_2d2d"
 	@echo "... orb_cv.o"
@@ -206,6 +247,9 @@ help:
 	@echo "... pose_estimation_2d2d.o"
 	@echo "... pose_estimation_2d2d.i"
 	@echo "... pose_estimation_2d2d.s"
+	@echo "... triangulation.o"
+	@echo "... triangulation.i"
+	@echo "... triangulation.s"
 .PHONY : help
 
 
