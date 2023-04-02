@@ -10,8 +10,8 @@
 using namespace std;
 using namespace Sophus;
 
-const string groundtruth_file = "/mnt/hgfs/Code/View_slam/ch4/example/groundtruth.txt";
-const string estimated_file = "/mnt/hgfs/Code/View_slam/ch4/example/estimated.txt";
+const string groundtruth_file = "./groundtruth.txt";
+const string estimated_file = "./estimated.txt";
 
 typedef vector<Sophus::SE3d, Eigen::aligned_allocator<Sophus::SE3d>> TrajectoryType;
 
