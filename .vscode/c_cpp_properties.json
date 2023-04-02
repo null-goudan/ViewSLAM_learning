@@ -6,7 +6,8 @@
                 "${workspaceFolder}/**",
                 "/usr/include/**",
                 "/usr/local/include/**",
-                "/home/goudan/Desktop/SLAM-Pakages/eigen-3.2.10/**"
+                "/home/goudan/Desktop/SLAM-Pakages/eigen-3.2.10/**",
+                "/home/goudan/Desktop/SLAM-Pakages/Sophus/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
