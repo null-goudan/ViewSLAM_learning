@@ -9,7 +9,6 @@ using namespace Eigen;
 // y = exp( a*x*x + b*x + c)
 
 int main(int argc, char **argv){
-
     double ar = 1.0, br = 2.0, cr = 1.0;    // the real Parameter
     double ae = 2.0, be = -1.0, ce = 5.0;   // the estimatical Parameter
     int N = 100;                            // the numbers of Data
