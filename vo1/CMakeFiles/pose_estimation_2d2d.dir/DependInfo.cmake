@@ -1,22 +1,14 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/goudan/Desktop/visual-slam/ViewSLAM_learning/vo1/pose_estimation_2d2d.cpp" "/home/goudan/Desktop/visual-slam/ViewSLAM_learning/vo1/CMakeFiles/pose_estimation_2d2d.dir/pose_estimation_2d2d.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "ENABLE_SSE"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/opencv"
-  "/usr/include/eigen3"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/goudan/Desktop/V-SLAM_code/ViewSLAM_learning/vo1/pose_estimation_2d2d.cpp" "CMakeFiles/pose_estimation_2d2d.dir/pose_estimation_2d2d.cpp.o" "gcc" "CMakeFiles/pose_estimation_2d2d.dir/pose_estimation_2d2d.cpp.o.d"
   )
 
 # Targets to which this target links.
