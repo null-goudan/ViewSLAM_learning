@@ -15,8 +15,6 @@
 #include <chrono>
 
 
-
-
 using namespace std;
 using namespace cv;
 
@@ -322,7 +320,6 @@ public:
     }
 
     virtual bool read(istream &in) override {}
-
     virtual bool write(ostream &out) const override {}
 
 private:
